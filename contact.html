@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="dark-mode">
 
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,7 @@
     <title>Contato</title>
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="icon" href="./src/img/favicon-16x16.png">
+    <script defer src="./src/js/script.js"></script>
 </head>
 
 <body>
@@ -29,6 +30,12 @@
             </ul>
         </nav>
 
+        <div class="checkbox">
+            <label for="switch">
+                <input type="checkbox" id="switch" checked>Dark Mode
+            </label>
+        </div>
+
         <header>
 
             <div class="center">
@@ -47,7 +54,7 @@
             <label for="message">Mensagem</label>
             <textarea class="text-input" name="message" id="message" value="" cols="40" rows="5"></textarea>
 
-            <button type="submit">Enviar</button>
+            <button class="submit" type="submit">Enviar</button>
         </form>
 
         <footer>
